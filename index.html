@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us"
+
+<head>
+    <link href="styles/styles.css" rel="stylesheet"/>
+</head>
+
+<head> 
+    <img src="asset/dosomethinggreat.jpg"
+    alt="Picture that reads Do Something Great"
+    style="width: 1000px; height: 350px"
+</head>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
     <title> Resume and Portfolio</title>
 </head>
 
-<nav class="topnav">
+<ul>
+<div class="topnav">
     <a href="#portfolio-pictures"> Portfolio Pictures</a>
     <a href="#resume"> Resume</a>
+    <a href="#instagram"> Instagram</a>
     <a href="#contact-me"> Contact Me</a>
-</nav>
+</div>
+</ul>
 
 <main>
     <!--4 heading levels:-->
@@ -22,20 +42,22 @@
     <!--1 heading levels-->
     <h1> Biography</h1>
     <p> Hi there, and welcome to my page! I am a student, designer, and enthusiast of all things creative! I am so happy you made it!</p>
-    <ul>
-        <li> My hobbies include:</li>
-<ol>
+   
+    <div class="container"
+    <ul class="myul">
+    My hobbies include:      
     <li> Reading</li>
     <li> Gaming</li>
     <li> Going for a walk with my dog, Max!</li>
-</ol>
-    <li> Feel free to scroll through below to check out my designs and my resume at the bottom!</li>
+    Feel free to scroll through below to check out my designs and my resume at the bottom!
     </ul>
+</div>
 </section>
 
 <section> 
     <!--1 heading levels:-->
     <h1>Instagram</h1>
+    <a id="instagram"></a>
     <a href="https://www.instagram.com/_a.b.d.e.s.i.g.n.s_/">Check out my Instagram!</a>
 </section>
 
@@ -43,7 +65,8 @@
     <!-- 1 heading levels:-->
     <h1> Portfolio Pictures</h1>
     <a id="portfolio-pictures"></a>   
-<table border="1"> 
+<table border="5"> 
+<table class="center">  
     <tr>
         <td>
              <img src="./asset/Image 1.jpg"
